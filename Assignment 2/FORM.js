@@ -120,6 +120,12 @@ function last(){
 		document.getElementById('grad').style.visibility = "visible"; 
 	}
 	else{
-		document.getElementById('grad').style.visibility = "hidden"; 
+		document.getElementById('grad').style.visibility = "hidden";
+		document.getElementById('submit').style.visibility = "hidden"; 
 	}
+
+function btn(){
+	var submit = document.getElementById('submit').style.visibility = "visible";
+
+}
 }

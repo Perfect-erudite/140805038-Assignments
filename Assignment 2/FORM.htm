@@ -3,30 +3,35 @@
 <head>
 	<title> FORM </title>
 	<link rel="stylesheet" type="text/css" href="FORM.css">
+	<div>
+		<marquee behavior = "alternate" ><b><p>Please fill in your details and move the mouse down for the next question</p></b></marquee>
+	</div>
 	<script src="FORM.js"> </script>	
 </head>
-<body>
-	<input type="text" id="name" onmouseleave="first()" placeholder="name" style="visibility: visible;"> <br><br>
+<body bgcolor = "grey">
+	<input type="text" id="name" onmouseleave="first()" placeholder="Name" style="visibility: visible;"> <br><br>
 
-	<input type="text" id="level" onmouseleave="second()" placeholder="level"> <br><br>
+	<input type="text" id="level" onmouseleave="second()" placeholder="Level"> <br><br>
 
-	<input type="text" id="matric" onmouseleave="third()" placeholder="matric number"> <br> <br>
+	<input type="text" id="matric" onmouseleave="third()" placeholder="Matric number"> <br> <br>
 
-	<input type="email" id ="dept" placeholder="department" onmouseleave="fourth()"> <br> <br>
+	<input type="email" id ="dept" placeholder="Department" onmouseleave="fourth()"> <br> <br>
 
-	<input type="text" id ="fac" placeholder="faculty" onmouseleave="fifth()"> <br> <br>
+	<input type="text" id ="fac" placeholder="Faculty" onmouseleave="fifth()"> <br> <br>
 
 	<input type="text" id ="cgpa" placeholder="CGPA" onmouseleave="sixth()">
 	<br>  <br>
 	
-	<input type="text" id="num" placeholder="phone number" onmouseleave="seventh()"> <br> <br>
+	<input type="text" id="num" placeholder="Phone number" onmouseleave="seventh()"> <br> <br>
 
-	<input type="text" id="state" state of origin onmouseleave="eight()">
+	<input type="text" id="state" placeholder = "State Of Origin" onmouseleave="eight()">
 	<br> <br>
 
-	<input type="text" id="status" placeholder="marital status" onmouseleave="last()"><br> <br>
+	<input type="text" id="status" placeholder="Marital status" onmouseleave="last()"><br> <br>
 
-	<input type="text" id="grad" placeholder="year of graduation">
+	<input type="text" id="grad" placeholder= "Year Of Graduation" onmouseleave = "btn()"><br> <br>
+
+	<input type = "button" name = "submit" value = "submit">
 		
 
 </body>
